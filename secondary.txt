@@ -5,5 +5,13 @@ This file we document intermideate knowledge in git
 
     **git add somFolder/*       //adds everything in the directory
 
-## 
+## if you accidentally deleted some text in a 
+    file but yet to add and commit the the file 
+    **use git diff to see the deleted file and revert it with
 
+    ** git checkout -- filename
+
+## If you git add a file into staging area. you can unstage it using   
+    **git reset HEAD <filename>
+
+## is should shange this later after commiting it
