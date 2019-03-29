@@ -1,0 +1,18 @@
+This is is a note about git essential course
+NOTE: Terminal command will be prefix with **
+
+##Initiating a git project
+    cd the direstory and run this command in the terminal
+    ** git Init
+
+## Add some file to the directory and add the to the stagging index
+    ** git add .
+
+NOTE: add . - add all files thats (in the current folder) yet to be in staging to the staging area
+
+## Then add the staging area files to the repository using 
+    ** git commit -m "This should be the commit message describing what the changes contain"
+
+## Knowing where you currently are with your workflow (At any time )
+    ** git status
+
