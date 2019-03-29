@@ -14,4 +14,4 @@ This file we document intermideate knowledge in git
 ## If you git add a file into staging area. you can unstage it using   
     **git reset HEAD <filename>
 
-## is should shange this later after commiting it
+## This is the file i mean to uncommit in the future
