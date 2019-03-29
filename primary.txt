@@ -45,6 +45,7 @@ NOTE: add . - add all files thats (in the current folder) yet to be in staging t
     ** git rm <file> and commit changes
 
 ## Move and Rename file 
-    ** git mv <fileName> <newFileName> nad commit changes
+    ** git mv <fileName> <newFileName> and commit changes         RENAME
+    ** git mv <fileName> folder         and commit changes     MOVE
 
 NOTE: both this and delete can be done physically before doing it in git way to save the file somewhere else
