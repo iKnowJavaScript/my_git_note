@@ -7,8 +7,11 @@ NOTE: Terminal command will be prefix with **
 
 ## Add some file to the directory and add the to the stagging index
     ** git add .
+    or
+    ** git add fileNameAndExtension
 
 NOTE: add . - add all files thats (in the current folder) yet to be in staging to the staging area
+    fileNameAndExtension adds a  single file to the staging area
 
 ## Then add the staging area files to the repository using 
     ** git commit -m "This should be the commit message describing what the changes contain"
