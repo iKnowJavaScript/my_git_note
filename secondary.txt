@@ -1,2 +1,7 @@
-This second file was created to understand "Making changes" better
+This file we document intermideate knowledge in git
+
+## When changes are made in multiple files across folder use this command to add and commit
+    **git commit -am "files are added automatically and commited to repo"
+
+
 
