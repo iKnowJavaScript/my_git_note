@@ -40,3 +40,6 @@ NOTE: add . - add all files thats (in the current folder) yet to be in staging t
 ## Knowing the changes staged before acommiting file to repo
     ** git diff --staged
     ** git diff --staged <file>
+
+## Remove a commited file from the repository
+    ** git rm <file> and commit changes
