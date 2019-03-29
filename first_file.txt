@@ -31,3 +31,12 @@ NOTE: add . - add all files thats (in the current folder) yet to be in staging t
 ## To remove stage file from staging area
     **git rm --cached second_file.txt
 
+
+        ###DIFFERNECE ** git diff
+## Knowing the changes made before adding file to staging. 
+    ** git diff     //for all file changes
+    ** git diff <file> //for single file changes
+
+## Knowing the changes staged before acommiting file to repo
+    ** git diff --staged
+    ** git diff --staged <file>

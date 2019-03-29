@@ -1,1 +1,3 @@
-This third file was created to understand "Making changes" better
+This third file was created   2  understand "Making changes" better
+
+# makes a little changes to get better view of git dii command
