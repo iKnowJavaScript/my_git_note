@@ -19,3 +19,7 @@ NOTE: add . - add all files thats (in the current folder) yet to be in staging t
 ## Knowing where you currently are with your workflow (At any time )
     ** git status
 
+## This command will show us all the sequence changes that has been commited and the commit message
+    ** git log
+
+
