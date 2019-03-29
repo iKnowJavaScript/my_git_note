@@ -49,3 +49,4 @@ NOTE: add . - add all files thats (in the current folder) yet to be in staging t
     ** git mv <fileName> folder         and commit changes     MOVE
 
 NOTE: both this and delete can be done physically before doing it in git way to save the file somewhere else
+    

@@ -3,5 +3,7 @@ This file we document intermideate knowledge in git
 ## When changes are made in multiple files across folder use this command to add and commit
     **git commit -am "files are added automatically and commited to repo"
 
+    **git add somFolder/*       //adds everything in the directory
 
+## 
 
