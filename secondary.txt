@@ -15,3 +15,9 @@ This file we document intermideate knowledge in git
     **git reset HEAD <filename>
 
 ## This is the file i mean to uncommit in the future
+    **git reset --hard HEAD~1
+        return the head to the previous commit and delete the least commit.
+
+    **git commit --amend -m "new message name"
+        changes the recent commit message
+
