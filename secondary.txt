@@ -18,6 +18,13 @@ This file we document intermideate knowledge in git
     **git reset --hard HEAD~1
         return the head to the previous commit and delete the least commit.
 
+    **git revert <SHA-1 or commit ID> (without quote)
+        reset the repo to the state before this commit id was made
+
     **git commit --amend -m "new message name"
         changes the recent commit message
+        This always change the last commit message (The commit the HEAD is pointing to)
+        This always changes the SHA-1 (commit ID)
+
+
 
