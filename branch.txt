@@ -1,2 +1,8 @@
 ###This is Mainly about Branches in Git
- 
+
+**git diff <branch1>..<branch2>
+    Helps knows the different between two branches
+     
+**git diff <branch1>..<branch2> //for easier understanding
+
+  
