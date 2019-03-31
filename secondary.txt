@@ -11,6 +11,10 @@ This file we document intermideate knowledge in git
 
     ** git checkout -- filename
 
+## if there are some changes that has not been staged and you would like to delete them
+    **git clean -file   
+        will remove the form the repo
+
 ## If you git add a file into staging area. you can unstage it using   
     **git reset HEAD <filename>
 
@@ -26,5 +30,37 @@ This file we document intermideate knowledge in git
         This always change the last commit message (The commit the HEAD is pointing to)
         This always changes the SHA-1 (commit ID)
 
+    #Using reset to undo many commit
+        This is a bit dangerous (Use with exreme caution) 
+        **git reset --soft <SHA of commit id>           //change the pointer to SHA but file are still staged
+        **git reset --mixed <SHA of commit id>            //file are unstaged
+        **git reset --hard <SHA of commit id>          //files are completely deleted now
 
 
+
+
+IGNORING FILES
+    ** .gitignore
+        *.php 
+            ignore all files with .php extension 
+        *!index.php 
+            But dont ignore index.php
+        *db/
+            Ignores all files in db folder
+         
+
+    **git rm --cached<filename>
+        remove the file from tracking index and can now be ignored by git 
+
+### git log --oneline
+    gives us the log in one line each, comprises of commit comment and SHA 
+
+    ***it log --oneline -5
+        will show us just 5 latest commit 
+
+### Compare commit (This help us know what has changed in the directory)
+    i.e  whats changed since our first commmit on monday to the last one on fiday
+     **git diff <SHA>             //check the diff between the commit and now
+     **git diff <SHA>  <filename>  
+     **it diff <SHA>..<SHA>       //to compare between two commit
+     
