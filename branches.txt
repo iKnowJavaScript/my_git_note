@@ -1,4 +1,4 @@
-###This is mainly for understanding branch
+###This is Mainly about Branches in Git
 
 **git branch 
     show us all the branches we have in our curent repo
