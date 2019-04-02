@@ -63,4 +63,4 @@ IGNORING FILES
      **git diff <SHA>             //check the diff between the commit and now
      **git diff <SHA>  <filename>  
      **it diff <SHA>..<SHA>       //to compare between two commit
-     
+
