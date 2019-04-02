@@ -57,3 +57,5 @@
                 (force the merge to create a commit)
         **git merge --ff-only branch
                 (proceed with the merge only if its fast forward merge) 
+
+*** Git Stashing ***
