@@ -1,0 +1,6 @@
+ALL ABOUT GIT REMOTE
+  **git remote 
+  if this is connected - it should show us all the remote available 
+
+  **git remote add <alias> <url> 
+  i.e git remote add origin https://github.com/iKnowJavaScript/my_git_note.git
