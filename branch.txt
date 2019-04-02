@@ -1,6 +1,7 @@
 ###This is Mainly about Branches in Git
 
 **git diff <branch1>..<branch2>
+    git diff --color-words <branch1>..<branch2>   //Color words ver
     Helps knows the different between two branches
      
 **git diff <branch1>..<branch2> //for easier understanding
@@ -8,4 +9,28 @@
 ** cat .git/HEAD
     To know where the head point at in a branch
 
+ ** git show HEAD 
+    Bring up the last commit and what they added to the repo 
+
+** git log  --oneline
+    Handy one liner git commit deatils
+
+** git log --oneline --decorate --all
+    Shed more light on commit related to branch
+
+** git branch --merged
+    will show us all the branches that are currently merge to this branch 
+
+ RENAMING BRANCHES
+    ** git branch -m new_feature new_feature_rename
+        NOTE: -m or --move is MOVE and its consider rename
+ 
+ DELETE BRANCH
+    switch to the master or parent branch and create locate the branch you want to DELETE
+    dont delete the branch you are currently working on at the moment
+
+    **git branch -d <branch-to-delete>
+        if you have some unmerge changes to master You will have to use -D to confirm delete
+ 
+ *** MERGING BRANCHES ***
  

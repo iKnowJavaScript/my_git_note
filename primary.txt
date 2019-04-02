@@ -22,6 +22,9 @@ NOTE: add . - add all files thats (in the current folder) yet to be in staging t
 ## This command will show us all the sequence changes that has been commited and the commit message
     ** git log
 
+Shortcut
+    ** git log --oneline
+
 #############################################################################################
 
 ### Making Changes to file
