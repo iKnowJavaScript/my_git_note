@@ -48,5 +48,5 @@
     **git branch -d <branch-to-delete>
         if you have some unmerge changes to master You will have to use -D to confirm delete
  
- *** MERGING (Merge 2 branch)BRANCHES ***
+ *** MERGING BRANCHES ***
  
