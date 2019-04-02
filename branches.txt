@@ -8,3 +8,9 @@
 
 **git checkout new_feature
     To switch to the new created file
+
+
+***MERGING BRANCHES*** 
+    Checkout to the branch that will receive the changes 
+    The branch we are merging into (In this case Master)
+    **git checkout master
