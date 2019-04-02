@@ -59,3 +59,21 @@
                 (proceed with the merge only if its fast forward merge) 
 
 *** Git Stashing ***
+
+    work on some couple things and pop the stash changes back 
+        **git stash list 
+            to see changes that are in my stash
+            This stash changes can be used in another branch 
+        **git stash show stash{0}
+            Tell more about the stash item 
+        **git stash show -p stash@{0}   //show the changes too 
+
+    Applying stash changes
+        **git stash pop stash@{0  }
+            remove the item from stash
+        **git stash apply
+            leave a copy in the stash 
+    Delete item in the stash without applying them
+         **git stash drop stash@{0} 
+         **git stash clear 
+            clear the whole stash 
