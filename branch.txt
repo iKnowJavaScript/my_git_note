@@ -59,6 +59,8 @@
                 (proceed with the merge only if its fast forward merge) 
 
 *** Git Stashing ***
+    Saving  uncommited changes for to be use later
+        ** git stash save "stash message here" 
 
     work on some couple things and pop the stash changes back 
         **git stash list 
@@ -77,3 +79,5 @@
          **git stash drop stash@{0} 
          **git stash clear 
             clear the whole stash 
+
+
