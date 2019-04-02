@@ -48,7 +48,8 @@
     **git branch -d <branch-to-delete>
         if you have some unmerge changes to master You will have to use -D to confirm delete
  
- *** MERGING  BRANCHES ***
+
+ *** MERGING BRANCHES ***
     Navigate to the branch your want to merge into and perform this command
         **git merge <branch-name>
     If the MERGER branch HEAD is included in the MERGEE branch then we have a FAST-FORWARD merge
@@ -56,6 +57,3 @@
                 (force the merge to create a commit)
         **git merge --ff-only branch
                 (proceed with the merge only if its fast forward merge) 
-
- 
- 
