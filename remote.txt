@@ -4,3 +4,22 @@ ALL ABOUT GIT REMOTE
 
   **git remote add <alias> <url> 
   i.e git remote add origin https://github.com/iKnowJavaScript/my_git_note.git
+
+   you can set up more than one remote for your project
+    and even give them different name
+    **git remote -v 
+      gives us a little more information
+    **git remote rm <alias > 
+      to remove a remote
+
+    **push branch onlime
+      **git push -u origin master
+
+      **git branch -r
+        shows the remote branch
+      ** git branch -a
+        List both remote and local
+
+
+    Further pushing origin to master(remote)
+    **git push origin master
