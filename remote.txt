@@ -23,3 +23,39 @@ ALL ABOUT GIT REMOTE
 
     Further pushing origin to master(remote)
     **git push origin master
+
+    CLONE
+      To grab a complete copy of another user's repository, use git clonelike this:
+     ** git clone https://github.com/USERNAME/REPOSITORY.git
+        # Clones a repository to your computer
+    
+    FETCH
+      Use git fetch to retrieve new work done by other people. Fetching from a repository 
+     grabs all the new remote-tracking branches and tags without merging those changes 
+      into your own branches.
+       $ git fetch remotename
+       # Fetches updates made to a remote repository
+
+    MERGE
+      Merging combines your local changes with changes made by others.
+      Typically, you'd merge a remote-tracking branch (i.e., a branch fetched from a 
+      remote repository) with your local branch:
+        $ git merge remotename/branchname
+        # Merges updates made online with your local work
+
+    PULL
+      git pull is a convenient shortcut for completing both git fetch and git mergein 
+      the same command:
+        $ git pull remotename branchname
+        #  Grabs online updates and merges them with your local work
+
+HOW FETCH, MERGE and PULL WORKS
+        You can fetch from remote to check if your commit log is in sync with master 
+      **git fetch origin
+        Then check the log
+      **git log --origin/master   #if the branch is master
+        Then compare your git log with the branch your in
+      You can the MERGE
+      Its advisable to fetch often to be in sync with remote as often as possible
+      
+      **git pull
