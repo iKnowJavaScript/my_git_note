@@ -21,5 +21,5 @@ ALL ABOUT GIT REMOTE
         List both remote and local
 
 
-    Further pushing origin to master(remote)
+    Further pushing origin to master(remote)**
     **git push origin master
