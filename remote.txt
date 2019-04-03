@@ -59,3 +59,5 @@ HOW FETCH, MERGE and PULL WORKS
       Its advisable to fetch often to be in sync with remote as often as possible
       
       **git pull
+    Further pushing origin to master(remote)**
+    **git push origin master
