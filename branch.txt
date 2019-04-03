@@ -71,7 +71,7 @@
         **git stash show -p stash@{0}   //show the changes too 
 
     Applying stash changes
-        **git stash pop stash@{0  }
+        **git stash pop stash@{0}
             remove the item from stash
         **git stash apply
             leave a copy in the stash 
@@ -81,3 +81,4 @@
             clear the whole stash 
 
 
+    ** git stash save "stash message here" 
