@@ -72,3 +72,5 @@ HOW FETCH, MERGE and PULL WORKS
 
         OR
     **git checkout <branch_name> origin/<branch_name>
+    Further pushing origin to master(remote)**
+    **git push origin master
