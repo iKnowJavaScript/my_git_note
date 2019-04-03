@@ -59,3 +59,16 @@ HOW FETCH, MERGE and PULL WORKS
       Its advisable to fetch often to be in sync with remote as often as possible
       
       **git pull
+
+  YOU CAN CREATE A NEW BRACH ONLINE
+    in the branch
+      git push origin <branchName>
+      **gi push origin develop
+
+
+  Check in to online repository
+    **git branch <online-branch> origin/<online-branch>
+      this can be used to track online branch with thesame name too 
+
+        OR
+    **git checkout <branch_name> origin/<branch_name>
