@@ -80,6 +80,3 @@
          **git stash clear 
             clear the whole stash 
 
-
-    ** git stash save "stash message here" 
-    ** git stash save "stash message here" 
